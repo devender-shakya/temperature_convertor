@@ -37,3 +37,60 @@ label{
     font-weight: bold;
     color: #2b0a15;
 }
+
+@media (min-width:400px) {
+    .heading{
+        font-size: 10px;
+    }
+    #container{
+        width: 40%;
+        background-color: rgb(179, 118, 219);
+        width: 30%;
+    }
+    .inp{
+        padding: 15px 35px;
+        font-size: 20px;
+        width: 30%;
+    }
+    label{
+        font-size: 20px;
+    }
+}
+
+@media (min-width:750px) {
+    .heading{
+        font-size: 15px;
+    }
+    #container{
+        width: 60%;
+        background-color: rgb(179, 118, 219);
+        width: 40%;
+        
+    }
+    .inp{
+        padding: 15px 35px;
+        font-size: 20px;
+        width: 40%;
+    }
+    label{
+        font-size: 20px;
+    }
+}
+@media (min-width:1000px) {
+    .heading{
+        font-size: 20px;
+    }
+    #container{
+        width: 60%;
+        background-color: rgb(179, 118, 219);
+        width: 60%;
+    }
+    .inp{
+        padding: 15px 35px;
+        font-size: 20px;
+        width: 60%;
+    }
+    label{
+        font-size: 25px;
+    }
+}
